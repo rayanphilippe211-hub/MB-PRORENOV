@@ -1,1 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+ <meta charset="UTF-8">
+ <title>Peinture - MBProRenov</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+ <style>
+ body {
+ margin: 0;
+ font-family: Arial, sans-serif;
+ background-color: #f4f4f4;
+ }
+
+ /* HEADER */
+ header {
+ background-color: #4a6280;
+ color: white;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 15px 40px;
+ }
+
+ header h1 {
+ margin: 0;
+ font-size: 24px;
+ }
+
+ nav a {
+ color: white;
+ text-decoration: none;
+ margin-left: 20px;
+ font-size: 14px;
+ }
+
+ nav a:hover {
+ text-decoration: underline;
+ }
+
+ /* CONTENU */
+ .container {
+ max-width: 1000px;
+ margin: 30px auto;
+ background: white;
+ padding: 40px;
+ }
+
+ h2 {
+ color: #2c3e50;
+ }
+
+ ul {
+ line-height: 1.8;
+ }
+
+ .gallery {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ gap: 15px;
+ margin-top: 30px;
+ }
+
+ .gallery img {
+ width: 100%;
+ border-radius: 10px;
+ }
+
+ .btn {
+ display: inline-block;
+ margin-top: 30px;
+ padding: 10px 20px;
+ background: #3498db;
+ color: white;
+ text-decoration: none;
+ border-radius: 5px;
+ }
+
+ .btn:hover {
+ background: #2980b9;
+ }
+ </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+ <h1>MBProRenov</h1>
+ <nav>
+ <a href="index.html">Accueil</a>
+ <a href="index.html#services">Services</a>
+ <a href="index.html#realisations">Réalisations</a>
+ <a href="index.html#avis">Avis</a>
+ <a href="index.html#contact">Contact</a>
+ </nav>
+</header>
+
+<!-- CONTENU -->
+<div class="container">
+
+ <h2>Travaux de Peinture</h2>
+
+ <ul>
+ <li> Peinture intérieure (murs, plafonds)</li>
+ <li> Peinture extérieure (façades)</li>
+ <li> Rénovation des supports</li>
+ <li> Enduits et finitions</li>
+ <li> Pose de revêtements muraux</li>
+ <li> Rafraîchissement complet de logements</li>
+ </ul>
+
+ <h2>Nos réalisations</h2>
+
+ <div class="gallery">
+ <img src="images/peinture1.jpg" alt="Peinture intérieure">
+ <img src="images/peinture2.jpg" alt="Peinture murale">
+ <img src="images/peinture3.jpg" alt="Façade rénovée">
+ </div>
+
+ <a href="index.html" class="btn">← Retour à l'accueil</a>
+
+</div>
+
+</body>
+</html>
