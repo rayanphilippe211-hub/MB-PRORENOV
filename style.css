@@ -1,1 +1,91 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background: #f5f7fa;
+}
 
+.container {
+width: 90%;
+margin: auto;
+}
+
+/* HEADER */
+header {
+background: #0d2b5c;
+color: white;
+padding: 15px 0;
+}
+
+.nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav a {
+color: white;
+margin: 0 10px;
+text-decoration: none;
+}
+
+/* HERO */
+.hero {
+background: url('images/roof.jpg') center/cover no-repeat;
+color: white;
+padding: 100px 0;
+text-align: center;
+}
+
+.btn {
+background: #2b6cb0;
+color: white;
+padding: 12px 20px;
+border-radius: 25px;
+text-decoration: none;
+}
+
+/* SERVICES */
+.services {
+text-align: center;
+padding: 50px 0;
+}
+
+.cards {
+display: flex;
+gap: 20px;
+justify-content: center;
+}
+
+.card {
+background: white;
+padding: 20px;
+border-radius: 10px;
+width: 250px;
+}
+
+/* PORTFOLIO */
+.gallery {
+display: flex;
+gap: 15px;
+}
+
+.gallery img {
+width: 100%;
+border-radius: 10px;
+}
+
+/* REVIEWS */
+.reviews {
+background: #1e3a8a;
+color: white;
+text-align: center;
+padding: 40px 0;
+}
+
+/* FOOTER */
+footer {
+text-align: center;
+padding: 15px;
+background: #0d2b5c;
+color: white;
+}
