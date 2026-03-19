@@ -55,7 +55,15 @@ display: flex;
 gap: 20px;
 justify-content: center;
 }
+img {
+max-width: 100%;
+height: auto;
+}
 
+.card img {
+height: 200px;
+object-fit: cover;
+}
 .card {
 background: white;
 padding: 20px;
