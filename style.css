@@ -2,6 +2,11 @@ body {
 font-family: Arial, sans-serif;
 margin: 0;
 background: #f5f7fa;
+
+/* FIX FOOTER */
+min-height: 100vh;
+display: flex;
+flex-direction: column;
 }
 
 /* CONTAINER */
@@ -34,7 +39,10 @@ font-weight: bold;
 .hero {
 background: url('image/toiture2.JPG') center/cover no-repeat;
 color: white;
-height: 500px;
+
+/* Amélioration responsive */
+min-height: 500px;
+
 display: flex;
 align-items: center;
 justify-content: center;
@@ -113,4 +121,7 @@ text-align: center;
 padding: 15px;
 background: #0d2b5c;
 color: white;
+
+/* FIX POSITION */
+margin-top: auto;
 }
