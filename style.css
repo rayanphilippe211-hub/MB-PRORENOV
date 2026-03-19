@@ -32,7 +32,7 @@ font-weight: bold;
 
 /* HERO (BANNIÈRE) */
 .hero {
-background: url('toiture2.JPG') center/cover no-repeat;
+background: url('image/toiture2.JPG') center/cover no-repeat;
 color: white;
 height: 500px;
 display: flex;
