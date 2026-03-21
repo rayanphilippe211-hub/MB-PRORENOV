@@ -204,3 +204,9 @@ border-radius: 10px;
 grid-template-columns: 1fr;
 }
 }
+.services-peinture {
+text-align: center;
+margin-top: 20px;
+line-height: 2;
+font-size: 16px;
+}
